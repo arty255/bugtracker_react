@@ -1,0 +1,23 @@
+.issueDescription {
+    word-break: break-word;
+    padding: 0.2em 0.3em;
+}
+
+.descriptionControlsContainer {
+    width: 100%;
+}
+
+.descriptionControls {
+    width: 80%;
+    margin: 0.2em auto;
+    height: 12px;
+}
+
+.plus {
+    background-color: #ffa500;
+}
+
+.minus {
+    background-color: #9d9292;
+}
+

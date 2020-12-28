@@ -1,0 +1,33 @@
+.severityWrapper {
+    display: flex;
+    align-items: center;
+}
+
+.severityWrapper.icon {
+    margin-right: 0.2rem;
+    width: 1em;
+}
+
+.icon.black {
+    background-color: #000000;
+}
+
+.icon.red {
+    background-color: #ff0000;
+}
+
+.icon.orange {
+    background-color: #ffa500;
+}
+
+.icon.yellow {
+    background-color: #ffff00;
+}
+
+.icon.green {
+    background-color: #008000;
+}
+
+.icon.gray {
+    background-color: #808080;
+}

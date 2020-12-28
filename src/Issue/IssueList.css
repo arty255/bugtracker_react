@@ -1,0 +1,31 @@
+/*
+div {
+    box-sizing: border-box;
+}
+*/
+
+.issue-container {
+    display: grid;
+    grid-template-columns: 5% min-content auto auto min-content;
+    grid-template-rows: auto;
+}
+
+.header {
+    background: #1976D2;
+    border: solid 1px #1565C0 !important;
+    color: white;
+    padding: 0.5em 0.2em;
+    text-align: center;
+}
+
+
+.issue-container > div {
+    border: 1px solid #d9d9d9;
+}
+
+.issueListItem {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0.5em;
+}

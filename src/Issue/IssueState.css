@@ -1,0 +1,27 @@
+.stateWrapper {
+    display: flex;
+    align-items: center;
+    padding: 0.2em;
+}
+
+.icon {
+    height: 0.5em;
+    margin-right: 0.2rem;
+    width: 0.5em;
+}
+
+.icon.red {
+    background-color: #ff0000;
+}
+
+.icon.green {
+    background-color: #008000;
+}
+
+.icon.black {
+    background-color: #000000;
+}
+
+.icon.gray {
+    background-color: #808080;
+}
